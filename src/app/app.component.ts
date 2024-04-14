@@ -33,5 +33,7 @@ export class AppComponent {
     { title: 'New Product', path: '/newProduct', icon: 'plus-circle' },
   ];
   currentAction: any;
-  
+  constructor() {
+
+  }
 }

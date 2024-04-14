@@ -10,6 +10,9 @@ import { Component } from '@angular/core';
   styleUrl: './products.component.css',
 })
 export class ProductsComponent {
+handleCheckPro(product :any) {
+  product.checked = !product.checked;
+}
   public products: any;
   constructor(private http: HttpClient) {}
   ngOnInit() {

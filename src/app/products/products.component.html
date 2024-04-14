@@ -15,6 +15,12 @@
             <td>{{ product.id }}</td>
             <td>{{ product.name }}</td>
             <td>{{ product.price }}</td>
+            <td>
+              <button (click)="handleCheckPro(product)" [class]="product.checked ? 'btn btn-outline-success':'btn btn-success'">
+              
+              </button>
+              
+            </td>
           </tr>
         </tbody>
       </table>

@@ -4,28 +4,28 @@
             "id":1,"price":100,"name":"product1","checked":false
         },
         {
-            "id":2,"price":200,"name":"product2","checked":false
+            "id":2,"price":200,"name":"product2","checked":true
         },
         {
             "id":3,"price":300,"name":"product3","checked":false
         },
         {
-            "id":4,"price":400,"name":"product4","checked":false
+            "id":4,"price":400,"name":"product4","checked":true
         },
         {
-            "id":5,"price":500,"name":"product5","checked":false
+            "id":5,"price":500,"name":"product5","checked":true
         },
         {
             "id":6,"price":600,"name":"product6","checked":false
         },
         {
-            "id":7,"price":700,"name":"product7","checked":false
+            "id":7,"price":700,"name":"product7","checked":true
         },
         {
             "id":8,"price":800,"name":"product8","checked":false
         },
         {
-            "id":9,"price":900,"name":"product9","checked":false
+            "id":9,"price":900,"name":"product9","checked":true
         },
         {
             "id":10,"price":1000,"name":"product10","checked":false
