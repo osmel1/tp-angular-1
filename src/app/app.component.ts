@@ -6,6 +6,7 @@ import { NewProductsComponent } from './new-products/new-products.component';
 import { RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import {NavBarComponent} from "./nav-bar/nav-bar.component";
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     ProductsComponent,
     NewProductsComponent,
     CommonModule,
-    HttpClientModule
+    HttpClientModule,
+    NavBarComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

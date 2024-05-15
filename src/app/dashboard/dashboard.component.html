@@ -1,0 +1,23 @@
+<div class="p-3">
+  <div class="card">
+    <div class="card-body">
+      <div class="nav nav-pills">
+        <li>
+          <label
+            class="border border-primary bg-primary rounded-1 px-2 py-1 text-white"
+          >Pages : {{ appState.productsState.totalPages }}</label
+          >
+          <label class="border bg-primary rounded-1 px-2 py-1 text-white ms-1"
+          >Totales : {{ appState.productsState.totalProducts }}</label
+          >
+          <label class="border bg-success rounded-1 px-2 py-1 text-white ms-1"
+          >Checked : {{ checkedProducts() }}</label
+          >
+          <label class="border bg-warning rounded-1 px-2 py-1 text-white ms-1"
+          >Page Size : {{ appState.productsState.pageSize }}</label
+          >
+        </li>
+      </div>
+    </div>
+  </div>
+</div>

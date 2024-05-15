@@ -1,34 +1,109 @@
 {
-    "products":[
-        {
-            "id":1,"price":100,"name":"product1","checked":false
-        },
-        {
-            "id":2,"price":200,"name":"product2","checked":true
-        },
-        {
-            "id":3,"price":300,"name":"product3","checked":false
-        },
-        {
-            "id":4,"price":400,"name":"product4","checked":true
-        },
-        {
-            "id":5,"price":500,"name":"product5","checked":true
-        },
-        {
-            "id":6,"price":600,"name":"product6","checked":false
-        },
-        {
-            "id":7,"price":700,"name":"product7","checked":true
-        },
-        {
-            "id":8,"price":800,"name":"product8","checked":false
-        },
-        {
-            "id":9,"price":900,"name":"product9","checked":true
-        },
-        {
-            "id":10,"price":1000,"name":"product10","checked":false
-        }
-    ]
+  "users": [
+    {
+      "id": "user1",
+      "password": "MTIzNA==",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTUxNjIzOTAyMiwiaWQiOiJ1c2VyMSIsInBhc3N3b3JkIjoiTVRJek5BPT0iLCJyb2xlcyI6WyJVU0VSIl19.lOoYbZYo9U_nF5fXeHgPEovcbUGlH5GtJyHg67vhzm0"
+    },
+    {
+      "id": "user2",
+      "password": "MTIzNA==",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTUxNjIzOTAyMiwiaWQiOiJ1c2VyMiIsInBhc3N3b3JkIjoiTVRJek5BPT0iLCJyb2xlcyI6WyJVU0VSIl19.hyU1TsFPssm16J7wK8Hf17L0YacvKE2RqvrBv5MxuUI"
+    },
+    {
+      "username": "admin",
+      "password": "MTIzNA==",
+      "roles": [
+        "ADMIN",
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMiwiaWQiOiJhZG1pbiIsInBhc3N3b3JkIjoiTVRJek5BPT0iLCJyb2xlcyI6WyJBRE1JTiIsIlVTRVIiXX0.J6DEHM00WXR0J4TwL4o7t4Y0AvWq8DXX3tdciQp4oBY"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "price": 100,
+      "name": "product1",
+      "checked": true
+    },
+    {
+      "id": "2",
+      "price": 200,
+      "name": "product2",
+      "checked": true
+    },
+    {
+      "id": "3",
+      "price": 300,
+      "name": "product3",
+      "checked": true
+    },
+    {
+      "id": "4",
+      "price": 400,
+      "name": "product4",
+      "checked": true
+    },
+    {
+      "id": "5",
+      "price": 500,
+      "name": "product5",
+      "checked": true
+    },
+    {
+      "id": "6",
+      "price": 600,
+      "name": "product6",
+      "checked": false
+    },
+    {
+      "id": "7",
+      "price": 700,
+      "name": "product7",
+      "checked": true
+    },
+    {
+      "id": "8",
+      "price": 800,
+      "name": "product8",
+      "checked": false
+    },
+    {
+      "id": "9",
+      "price": 900,
+      "name": "product9",
+      "checked": true
+    },
+    {
+      "id": "10",
+      "price": 1000,
+      "name": "product10",
+      "checked": true
+    },
+    {
+      "name": "pc",
+      "price": 12333,
+      "checked": false,
+      "id": "ObckZTr"
+    },
+    {
+      "name": "Osmel",
+      "price": 0,
+      "checked": false,
+      "id": "dPCn6ro"
+    },
+    {
+      "name": "test1",
+      "price": 0,
+      "checked": false,
+      "id": "zuez5RT"
+    }
+  ]
 }

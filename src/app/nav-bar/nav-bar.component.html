@@ -1,0 +1,35 @@
+<nav class="p-3 row">
+  <ul class="nav nav-pills ">
+    <li *ngFor="let action of actions">
+      <button
+        routerLink="{{ action.route }}"
+        class="btn btn-outline-info ms-1 white-hover-text"
+        (click)="setCurrentAction(action)"
+        [class]="
+          action == currentActions
+            ? 'btn btn-info ms-1 text-color-white text-white '
+            : 'btn btn-outline-info ms-1'
+        "
+      >
+        {{ action.title }}
+        <i class="bi bi-{{ action.icon }}"></i>
+      </button>
+    </li>
+
+   <ul class="">
+     <li *ngIf="appState.authState.isAuthenticated" class="me-2">
+       {{appState.authState.username}}
+       <button class="btn btn-danger" (click)="logout()">Logout</button>
+     </li>
+     <li *ngIf="!appState.authState.isAuthenticated" class="ms-2">
+       <button class="btn btn-success" (click)="Login()">Login</button>
+
+     </li>
+   </ul>
+    <li *ngIf="ls.isLoading$ | async" class="ms-auto">
+      <div class="spinner-border text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </li>
+  </ul>
+</nav>
